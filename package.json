@@ -8,6 +8,14 @@
   "repository": "git://github.com/peterdemartini/public-photo-album-to-dropbox.git",
   "author": "Peter DeMartini <thepeterdemartini@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=7",
+    "npm": ">=3"
+  },
+  "private": true,
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "dependencies": {
     "async-busboy": "^0.4.0",
     "dropbox": "^2.5.2",
