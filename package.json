@@ -1,0 +1,20 @@
+{
+  "name": "public-photo-album-to-dropbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node command.js"
+  },
+  "repository": "git://github.com/peterdemartini/public-photo-album-to-dropbox.git",
+  "author": "Peter DeMartini <thepeterdemartini@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async-busboy": "^0.4.0",
+    "dropbox": "^2.5.2",
+    "envalid": "^2.4.2",
+    "koa": "^2.2.0",
+    "koa-logger": "^2.0.1",
+    "koa-static": "^3.0.0",
+    "lodash": "^4.17.4"
+  }
+}
