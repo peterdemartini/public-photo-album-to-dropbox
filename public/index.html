@@ -3,18 +3,24 @@
 <head>
   <title>Public Photo Album</title>
   <style>
-    body {
-      padding: 50px;
-      font: 14px Helvetica, Arial;
+    #dropzone {
+      padding: 5rem;
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css" />
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <h1>File Upload</h1>
-  <p>Try uploading multiple files at a time.</p>
-  <form action="/" method="post" enctype="multipart/form-data">
-    <input type="file" name="file" multiple>
-    <input type="submit" value="Upload">
-  </form>
+  <section>
+    <div id="dropzone">
+      <h1>Upload Image To Share It</h1>
+      <form action="/" class="dropzone dz-clickable" id="demo-upload">
+        <div class="dz-message">
+          Drop files here or click to upload.
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
 </body>
 </html>
