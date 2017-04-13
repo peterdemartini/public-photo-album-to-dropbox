@@ -29,6 +29,7 @@ class Server {
   }
   run(){
     this.app.listen(this.PORT)
+    console.log('service is running....')
   }
 }
 
